@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#portada {
+    background-color: #077085;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.services-section {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.services-section h2 {
+    color: #077085;
+    margin-bottom: 0.5rem;
+}
+
+.services-section p {
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    padding: 1.5rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Animación para hover */
+    transition: box-shadow 0.2s ease-in-out;
+
+}
+
+.card:hover {
+    border: 2px solid #077085;
+    box-shadow: 0 0 10px #077085;
+    p {
+        transform: translateY(-5px);
+        transition: transform 0.3s ease;
+    }
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    
+}
+
+.card-icon {
+    font-size: 2.5rem;
+    color: #077085;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    color: #077085;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.card p {
+    margin: 0.5rem 0 1rem;
+    color: #666;
+    text-align: center;
+}
+
+.card ul {
+    padding-left: 1.5rem;
+    color: #444;
+    text-align: left;
+}
+
+.card ul li {
+    margin-bottom: 0.5rem;
+}

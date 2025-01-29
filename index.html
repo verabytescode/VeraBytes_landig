@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo_portada.css">
+    <link rel="stylesheet" href="./css/estiloservicios.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <title>Verabytes</title>
 </head>
 
 <body>
-
     <!--Barra de navegación-->
     <div id="portada">
         <nav>
-            
             <div id="logo-nombre">
                 <div id="contenedor_imagen">
                     <a href="/">
@@ -22,16 +22,13 @@
                 </div>
                 <h1 id="nombre_empresa">Verabytes</h1>
             </div>
-
             <!-- Botón del menú (hamburguesa) -->
-                <button id="menu-btn" aria-label="Abrir menú">&#9776;</button>
-
+            <button id="menu-btn" aria-label="Abrir menú">&#9776;</button>
             <ul id="menu">
                 <li><a href="">Inicio</a></li>
                 <li><a href="">Servicios</a></li>
                 <li><a href="#nosotros">Acerca de nosotros</a></li>
                 <li><a id="boton_contactanos_nav" href="">Contáctanos</a></li>
-
             </ul>
         </nav>
 
@@ -43,28 +40,70 @@
         <!--Botón para contactarnos por Whatsapp-->
         <a id="boton_portada" href="">Comenzar</a>
     </div>
-
     <!--Fin barra de navegación-->
 
-    <!--Inicio acerca de nosotros-->
+    <!--Sección de Servicios-->
+    <section class="services-section">
+        <h2>Soluciones de Software Integrales</h2>
+        <p>Ofrecemos soluciones de vanguardia adaptadas a las necesidades de tu negocio</p>
+        <div class="service-cards">
+            <div class="card">
+                <i class="fas fa-code card-icon"></i>
+                <h3>Desarrollo Personalizado</h3>
+                <p>Soluciones de software a medida diseñadas para satisfacer tus requisitos y desafíos empresariales únicos:</p>
+                <ul>
+                    <li>Aplicaciones Web Personalizadas</li>
+                    <li>Desarrollo de APIs</li>
+                    <li>Integración de Sistemas</li>
+                </ul>
+            </div>
+            <div class="card">
+                <i class="fas fa-cloud card-icon"></i>
+                <h3>Soluciones en la Nube</h3>
+                <p>Infraestructura en la nube escalable y segura para empresas modernas:</p>
+                <ul>
+                    <li>Migración a la Nube</li>
+                    <li>Servicios AWS y Azure</li>
+                    <li>Arquitectura en la Nube</li>
+                </ul>
+            </div>
+            <div class="card">
+                <i class="fas fa-database card-icon"></i>
+                <h3>Gestión de Datos</h3>
+                <p>Soluciones integrales de bases de datos para un almacenamiento y recuperación eficiente de datos:</p>
+                <ul>
+                    <li>Diseño de Bases de Datos</li>
+                    <li>Migración de Datos</li>
+                    <li>Optimización de Rendimiento</li>
+                </ul>
+            </div>
+            <div class="card">
+                <i class="fas fa-mobile-alt card-icon"></i>
+                <h3>Desarrollo Móvil</h3>
+                <p>Aplicaciones móviles nativas y multiplataforma para iOS y Android:</p>
+                <ul>
+                    <li>Desarrollo para iOS</li>
+                    <li>Desarrollo para Android</li>
+                    <li>Aplicaciones Multiplataforma</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--Fin Sección de Servicios-->
 
+    <!--Inicio acerca de nosotros-->
     <div id="nosotros">
         <div id="texto-nosotros">
             <h1>Acerca de Nosotros</h1>
             <p>Somos una empresa especializada en el desarrollo de software a medida, enfocada en crear soluciones innovadoras que transforman la manera en que los negocios operan y crecen. Nuestro equipo de expertos combina creatividad, tecnología de vanguardia y un enfoque personalizado para diseñar aplicaciones web, móviles y sistemas integrales que se adaptan a tus necesidades.</p>
-          
         </div>
         <div id="imagen-nosotros">
             <img src="./img/recorte-isotipo222.webp" alt="Imagen del equipo">
         </div>
     </div>
-    
-
     <!--Fin acerca de nosotros-->
 
-
     <script src="./js/boton_menu.js"></script>
-
 </body>
 
 </html>
