@@ -19,7 +19,37 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
-    #footer-container {
+    #footer-contenido {
         padding: 0 20px;
     }
+}
+
+
+* Footer*/
+
+.footer-contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #222; 
+    color: #fff;
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre iconos */
+    margin-top: 10px;
+}
+
+.icono {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.icono:hover {
+    color: #21afbd; /* Color de hover */
 }
