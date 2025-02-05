@@ -4,21 +4,30 @@
     color: white;
     text-align: center;
     padding: 2rem 1rem;
+    font-family: "Chocolate Classical Sans";
+    font-weight: lighter;
 }
 
 .services-section {
     padding: 2rem 1rem;
     text-align: center;
+    font-family: "Chocolate Classical Sans";
+    font-weight: lighter;
+
 }
 
 .services-section h2 {
     color: #077085;
     margin-bottom: 0.5rem;
+    font-family: "Chocolate Classical Sans";
+    font-weight: lighter;
 }
 
 .services-section p {
     color: #555;
     margin-bottom: 2rem;
+    font-family: "Chocolate Classical Sans";
+    font-weight: lighter;
 }
 
 .service-cards {
