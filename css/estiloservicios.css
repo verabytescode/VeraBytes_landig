@@ -24,7 +24,7 @@
 }
 
 .services-section p {
-    color: #555;
+    color: #000000;
     margin-bottom: 2rem;
     font-family: "Chocolate Classical Sans";
     font-weight: lighter;
@@ -77,13 +77,13 @@
 
 .card p {
     margin: 0.5rem 0 1rem;
-    color: #666;
+    color: #000000;
     text-align: center;
 }
 
 .card ul {
     padding-left: 1.5rem;
-    color: #444;
+    color: #000000;
     text-align: left;
 }
 
